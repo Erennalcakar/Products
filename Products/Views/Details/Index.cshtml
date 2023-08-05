@@ -1,0 +1,32 @@
+﻿@{
+	ViewData["Title"] = "Products Details";
+}
+<div class="row">
+	
+		<h1>Product Details</h1>
+    <p>
+        <img src="/media/products/@Model.Image" alt="@Model.Title" />
+    </p>
+    <p>
+        <b> @Model.Title</b>
+    </p>
+    <p>
+        <b> Description:</b> @Model.Description
+    </p>
+    <p>
+        <b>Product Price:</b> @Model.Price $
+    </p>
+    <p>
+        <b>Discount:</b> @Model.DiscountPercentage
+    </p>
+    <p>
+        <b>Rating:</b> @Model.Rating
+    </p>
+    <p>
+        <b>Brand:</b> @Model.Brand
+    </p>
+    <p>
+        <a href="/products">Back to Products</a>
+    </p>
+
+</div>
